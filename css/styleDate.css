@@ -1,0 +1,31 @@
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dateRight {
+    display: flex;
+    align-items: center;
+}
+
+#dateNro {
+    font-size: 50px;
+}
+
+#dateText {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#dateMes,
+#dateNro,
+#dateDia  {
+    font-weight: bold;
+}
+
+#dateMes,
+#dateAño {
+    margin-left: 7px;
+    font-size: 20px;
+}
